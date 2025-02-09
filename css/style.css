@@ -2987,6 +2987,11 @@ textarea:focus {
   width: 33px;
   height: 43px
 }
+@media(min-width:86.375em) {
+  .swiper-pagination {
+    display: none
+  }
+}
 .hero.services-page .image-hero {
   -o-object-fit: cover;
   object-fit: cover;
