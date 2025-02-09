@@ -5,7 +5,7 @@
 	<title>Contacts</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250209191956">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250209202946">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -236,9 +236,14 @@
 				<button data-close type="button" class="popup__close">
 					<img src="img/icon-close-white.svg" alt="Close popup">
 				</button>
-				<video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
+				<!-- <video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
+				<source src="img/1_pupil_toy.mp4" type="video/mp4">
+			</video> -->
+				<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop loading="lazy" aria-hidden="true">
 					<source src="img/1_pupil_toy.mp4" type="video/mp4">
+					Your browser does not support the video. <a href="img/1_pupil_toy.mp4">Download video</a>.
 				</video>
+
 				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
 				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
 				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.webm" type="video/webm">
@@ -609,7 +614,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250209191956"></script>
+	<script src="js/app.min.js?_v=20250209202946"></script>
 </body>
 
 </html>

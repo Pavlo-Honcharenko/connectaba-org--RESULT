@@ -5,7 +5,7 @@
 	<title>Home Page</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250209191956">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250209202946">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -166,13 +166,13 @@
 						<div class="services__item services__item--4">
 							<picture>
 								<source media="(min-width: 320px) and (max-width: 700px)" srcset="img/home-mob-01.webp" />
-								<img src="img/home-pc-01.webp" class="services-bg" alt="Man listening">
+								<img src="img/home-pc-01.webp" class="services-bg" alt="Man listening" loading="lazy">
 							</picture>
 						</div>
 						<div class="services__item services__item--5">
 							<picture>
 								<source media="(min-width: 320px) and (max-width: 600px)" srcset="img/home-mob-02.webp" />
-								<img src="img/home-pc-02.webp" class="services-bg" alt="Guys listening">
+								<img src="img/home-pc-02.webp" class="services-bg" alt="Guys listening" loading="lazy">
 							</picture>
 						</div>
 						<div class="services__item services__item--6">
@@ -333,7 +333,7 @@
 				<picture>
 					<source media="(min-width: 320px) and (max-width: 768px)" srcset="img/image-mob-home-section-6.webp" />
 					<source media="(min-width: 769px) and (max-width: 1024px)" srcset="img/image-tablet-home-section-6.webp" />
-					<img src="img/image-pc-home-section-6.webp" class="how__bg" alt="Happy boy">
+					<img src="img/image-pc-home-section-6.webp" class="how__bg" alt="Happy boy" loading="lazy">
 				</picture>
 				<div class="how__container">
 					<div class="how__row">
@@ -494,7 +494,7 @@
 										I was unsure about ABA therapy at first, but Connect ABA has exceeded all of our expectations. The therapists are not only skilled but also compassionate. They’ve helped my son develop crucial communication skills and taught me how to be a more patient and understanding parent. It’s been amazing to see him make progress, and I’m so grateful for the support Connect ABA has given our family.
 									</div>
 									<div class="review__footer">
-										<img src="img/person-01.webp" alt="Jessica photo">
+										<img src="img/person-01.webp" alt="Jessica photo" loading="lazy">
 										<div class="review__wrapper">
 											<div class="review__name">
 												Jessica
@@ -516,7 +516,7 @@
 										Accepting that my son has autism was one of the toughest moments in my life. I felt overwhelmed and unsure of how to help him. But Connect ABA made the transition smoother. The team not only supported my 4-year-old but also guided me as a parent. They helped me better understand my child’s needs and taught me how to approach him in a way that fosters his growth. Thanks to their care and expertise, we’ve seen amazing progress, and I feel more confident as a parent. I’m forever grateful for Connect ABA.
 									</div>
 									<div class="review__footer">
-										<img src="img/person-02.webp" alt="Rose photo">
+										<img src="img/person-02.webp" alt="Rose photo" loading="lazy">
 										<div class="review__wrapper">
 											<div class="review__name">
 												Rose
@@ -538,7 +538,7 @@
 										When we first started therapy with Connect ABA, my daughter was having difficulty expressing herself and engaging with tasks. The BCBA took the time to really understand her needs and created a personalized approach that has helped her to improve. The progress she’s made is remarkable, and I feel much more confident as a parent knowing I have the support of such a dedicated team.
 									</div>
 									<div class="review__footer">
-										<img src="img/person-03.webp" alt="Jennifer photo">
+										<img src="img/person-03.webp" alt="Jennifer photo" loading="lazy">
 										<div class="review__wrapper">
 											<div class="review__name">
 												Jennifer
@@ -560,7 +560,7 @@
 										As a parent of a nonverbal child with autism, finding Connect ABA was the best decision we ever made. Their evidence-based approach and compassionate staff have helped my daughter gain confidence and new skills. Highly recommend!
 									</div>
 									<div class="review__footer">
-										<img src="img/person-04.webp" alt="Samantha photo">
+										<img src="img/person-04.webp" alt="Samantha photo" loading="lazy">
 										<div class="review__wrapper">
 											<div class="review__name">
 												Samantha
@@ -725,9 +725,14 @@
 				<button data-close type="button" class="popup__close">
 					<img src="img/icon-close-white.svg" alt="Close popup">
 				</button>
-				<video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
+				<!-- <video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
+				<source src="img/1_pupil_toy.mp4" type="video/mp4">
+			</video> -->
+				<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop loading="lazy" aria-hidden="true">
 					<source src="img/1_pupil_toy.mp4" type="video/mp4">
+					Your browser does not support the video. <a href="img/1_pupil_toy.mp4">Download video</a>.
 				</video>
+
 				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
 				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
 				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.webm" type="video/webm">
@@ -1098,7 +1103,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250209191956"></script>
+	<script src="js/app.min.js?_v=20250209202946"></script>
 </body>
 
 </html>
