@@ -850,11 +850,6 @@ textarea:focus {
     color: #3e56a3
   }
 }
-@media(min-width:64.06125em) {
-  .get-started__item {
-    flex: 0 1 calc(25% - 10px)
-  }
-}
 .swiper-pagination-bullets {
   padding-top: 30px;
   display: flex;
@@ -3716,12 +3711,12 @@ textarea:focus {
   }
 }
 .hero.contacts-page {
-  border-radius: 0 0 24px 24px;
+  border-radius: 0;
   overflow: hidden
 }
 @media(min-width:64.06125em) {
   .hero.contacts-page {
-    border-radius: 0 0 60px 60px
+    border-radius: 0
   }
 }
 .swiper {
