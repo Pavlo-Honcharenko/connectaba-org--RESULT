@@ -1431,7 +1431,7 @@ textarea:focus {
   line-height: 150%;
   letter-spacing: -.02em;
   color: #fff;
-  opacity: .35;
+  opacity: .55;
   padding-bottom: 30px
 }
 .footer-dark a {
@@ -2494,7 +2494,7 @@ textarea:focus {
   -o-object-fit: cover;
   object-fit: cover;
   z-index: -1;
-  background: rgba(67,54,47,.4)
+  background: rgba(67,54,47,.6)
 }
 .started-video__container {
   display: flex;

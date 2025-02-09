@@ -5,7 +5,7 @@
 	<title>Home Page</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250209185826">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250209191956">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -294,8 +294,12 @@
 
 			<!-- SECTION started-video -->
 			<section class="started-video">
-				<video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="">
+				<!-- <video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="">
+						<source src="img/2_children_draw.mp4" type="video/mp4">
+					</video> -->
+				<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop aria-label="Background video of children drawing">
 					<source src="img/2_children_draw.mp4" type="video/mp4">
+					Your browser does not support the video. <a href="img/2_children_draw.mp4">Download video </a>.
 				</video>
 				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
 						<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
@@ -681,7 +685,7 @@
 				</button>
 				<div class="popup__text">
 					<h2 class="popup-title">Get Started</h2>
-					<p class="popup-description">Fill in the form and we will contact you shortly</p>
+					<h3 class="popup-description">Fill in the form and we will contact you shortly</h3>
 					<form name="get-started" class="get-started" action="#" method="POST">
 						<div class="get-started__items">
 							<div class="get-started__item get-started__item--name">
@@ -1094,7 +1098,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250209185826"></script>
+	<script src="js/app.min.js?_v=20250209191956"></script>
 </body>
 
 </html>
