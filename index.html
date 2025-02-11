@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250211092525">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250211203432">
 	<link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
 	<link rel="icon" href="img/favicon.webp" type="image/x-icon">
 	<meta name="robots" content="noindex, nofollow">
@@ -717,57 +717,6 @@
 
 
 
-	<div id="video" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">
-					<img src="img/icon-close-white.svg" alt="Close popup">
-				</button>
-				<!-- <video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
-				<source src="img/1_pupil_toy.mp4" type="video/mp4">
-			</video> -->
-				<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop loading="lazy" aria-hidden="true">
-					<source src="img/1_pupil_toy.mp4" type="video/mp4">
-					Your browser does not support the video. <a href="img/1_pupil_toy.mp4">Download video</a>.
-				</video>
-
-				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.webm" type="video/webm">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mov" type="video/mov">
-			</video> -->
-			</div>
-		</div>
-	</div>
-
-
-
-	<div id="video-2" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">
-					<img src="img/icon-close-white.svg" alt="Close popup">
-				</button>
-				<video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="" loading="lazy">
-					<source src="img/4_mother_help.mp4" type="video/mp4">
-				</video>
-				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.webm" type="video/webm">
-				<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mov" type="video/mov">
-			</video> -->
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -850,10 +799,11 @@
 								<label for="apply-form-phone">Your Phone:</label>
 								<input type="text" id="apply-form-phone" name="apply-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
 							</div>
-							<div class="get-started__item get-started__item--phone">
+							<div class="get-started__item get-started__item--resume">
 								<img src="img/icon-resume.svg" alt="Resume form icon">
-								<label for="apply-form-resume">Your Resume:</label>
-								<input type="text" id="apply-form-resume" name="apply-form-resume" placeholder="Attach file" class="input">
+								<label for="apply-form-resume">Your Resume (pdf, docx):</label>
+								</label>
+								<input type="file" name="apply-form-resume" id="apply-form-resume" accept=".pdf, .docx" placeholder="Attach file. Allowed file types: .pdf, .docx" class="input">
 							</div>
 							<div class="get-started__item get-started__item--cover-letter">
 								<label for="apply-form-cover-letter">Cover letter:</label>
@@ -962,10 +912,10 @@
 								<label for="bcba-lba-apply-form-phone">Your Phone:</label>
 								<input type="text" id="bcba-lba-apply-form-phone" name="bcba-lba-apply-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
 							</div>
-							<div class="get-started__item get-started__item--phone">
+							<div class="get-started__item get-started__item--resume">
 								<img src="img/icon-resume.svg" alt="Resume form icon">
-								<label for="bcba-lba-apply-form-resume">Your Resume:</label>
-								<input type="text" id="bcba-lba-apply-form-resume" name="bcba-lba-apply-form-resume" placeholder="Attach file" class="input">
+								<label for="bcba-lba-apply-form-resume">Your Resume (pdf, docx):</label>
+								<input type="file" name="bcba-lba-apply-form-resume" id="bcba-lba-apply-form-resume" accept=".pdf, .docx" placeholder="Attach file. Allowed file types: .pdf, .docx" class="input">
 							</div>
 							<div class="get-started__item get-started__item--cover-letter">
 								<label for="bcba-lba-apply-form-cover-letter">Cover letter:</label>
@@ -1079,10 +1029,11 @@
 								<label for="opportunity-apply-form-phone">Your Phone:</label>
 								<input type="text" id="opportunity-apply-form-phone" name="opportunity-apply-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
 							</div>
-							<div class="get-started__item get-started__item--phone">
+							<div class="get-started__item get-started__item--resume">
 								<img src="img/icon-resume.svg" alt="Resume form icon">
-								<label for="opportunity-apply-form-resume">Your Resume:</label>
-								<input type="text" id="opportunity-apply-form-resume" name="opportunity-apply-form-resume" placeholder="Attach file" class="input">
+								<label for="opportunity-apply-form-resume">Your Resume (pdf, docx):</label>
+								</label>
+								<input type="file" name="opportunity-apply-form-resume" id="opportunity-apply-form-resume" accept=".pdf, .docx" placeholder="Attach file. Allowed file types: .pdf, .docx" class="input">
 							</div>
 							<div class="get-started__item get-started__item--cover-letter">
 								<label for="opportunity-apply-form-cover-letter">Cover letter:</label>
@@ -1101,7 +1052,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250211092525"></script>
+	<script src="js/app.min.js?_v=20250211203432"></script>
 </body>
 
 </html>
