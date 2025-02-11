@@ -1106,7 +1106,8 @@ textarea:focus {
     margin-bottom: 8.95vh;
     font-size: 20px;
     color: #3a4e7a;
-    background: #fff
+    background: #fff;
+    padding: 22px 40px 24px
   }
 }
 @media(max-width:26.25em) {
@@ -1755,7 +1756,8 @@ textarea:focus {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  position: relative
+  position: relative;
+  z-index: 2
 }
 @media(max-width:56.25em) {
   .hero .hero-row__col-3 {
@@ -3391,15 +3393,18 @@ textarea:focus {
     border-radius: 30px
   }
 }
-.hero.career .career-row__col--2 img {
+.hero.career .career-row__col--2 .video-button {
   border-radius: 12px;
   width: 198px;
-  height: 130px
+  flex: 0 0 198px;
+  height: 130px;
+  overflow: hidden
 }
 @media(min-width:75em) {
-  .hero.career .career-row__col--2 img {
+  .hero.career .career-row__col--2 .video-button {
     border-radius: 30px;
     width: 303px;
+    flex: 0 0 303px;
     height: 177px
   }
 }
@@ -3724,8 +3729,20 @@ textarea:focus {
     border-radius: 0
   }
 }
-.why__items {
-  text-shadow: 1px 1px 3px #000
+.no-border {
+  border: initial!important
+}
+.copyright-text {
+  text-align: center;
+  order: 7;
+  font-size: 14px;
+  line-height: 120%;
+  margin-top: 48px
+}
+@media(min-width:64.06125em) {
+  .copyright-text {
+    display: none
+  }
 }
 .swiper {
   overflow: hidden

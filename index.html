@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250210080438">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250211092525">
 	<link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
 	<link rel="icon" href="img/favicon.webp" type="image/x-icon">
 	<meta name="robots" content="noindex, nofollow">
@@ -29,26 +29,20 @@
 	<div class="wrapper">
 		<header data-scroll="50" class="header">
 			<div class="header__container">
-				<a href="/" style="width: 91px; height: 11px; display: block;" class="header__logo"><img src="img/logo.svg" alt="ConnectABA logo"></a>
+				<a href="index.html" style="width: 91px; height: 11px; display: block;" class="header__logo"><img src="img/logo.svg" alt="ConnectABA logo"></a>
 				<div class="menu-header">
 					<button type="button" class="menu-header__icon icon-menu" aria-label="Mobile menu button"><span></span></button>
 					<nav class="menu-header__body">
-						<a href="/" style="width: 191px; height: 20px; display: block;" class="logo-header-mobile"><img src="img/logo.svg" alt="ConnectABA logo"></a>
+						<a href="index.html" style="width: 191px; height: 20px; display: block;" class="logo-header-mobile"><img src="img/logo-white.svg" alt="ConnectABA logo"></a>
 						<ul class="nav-menu">
 							<li class="menu-item current-menu-item"><a href="our-services.html">Our Services</a></li>
 							<li class="menu-item"><a href="career.html">Career</a></li>
 							<li class="menu-item"><a href="contacts.html">Contacts</a></li>
 						</ul>
-						<div class="menu-header__social-links">
-							<a href=""><img src="img/icon-facebook.svg" alt="Facebook icon"></a>
-							<a href=""><img src="img/icon-tiktok.svg" alt="TikTok icon"></a>
-							<a href=""><img src="img/icon-youtube.svg" alt="YouTube icon"></a>
-							<a href=""><img src="img/icon-instagram.svg" alt="Instagram icon"></a>
-							<a href=""><img src="img/icon-telegram.svg" alt="Telegram icon"></a>
-						</div>
 						<a href="tel:+17183441446" class="menu-header__phone">+1 (718) 344-1446</a>
 						<a href="#" data-popup="#popup" class="menu-header__button">Get Started</a>
 						<a class="menu-header__mail" href="mailto:office@connectaba.org">office@connectaba.org</a>
+						<div class="copyright-text">&#169; Connect ABA. All Right Reserved. 2012 - 2025</div>
 					</nav>
 				</div>
 			</div>
@@ -91,7 +85,7 @@
 								</picture>
 							</div>
 							<div class="hero-row__col-2">
-								<div data-popup="#popup" class="get-started__item get-started__item--button">
+								<div data-popup="#popup" class="get-started__item get-started__item--button no-border">
 									<img src="img/icon-diagonal-arrow.svg" alt="Open popup icon">
 									<button type="submit" class="button">
 										<div class="button-text-1">Get Started</div>
@@ -100,15 +94,11 @@
 								</div>
 							</div>
 							<div class="hero-row__col-3">
-								<a href="#" data-popup="#video" tabindex="0">
-									<img src="img/icon-play.svg" class="button-play" alt="Play icon">
-									<picture>
-										<source media="(min-width: 320px) and (max-width: 620px)" srcset="img/video-cover-mob-home-section-1.webp" />
-										<source media="(min-width: 621px) and (max-width: 669px)" srcset="img/video-cover-pc-home-section-1.webp" />
-										<source media="(min-width: 670px) and (max-width: 900px)" srcset="img/video-cover-mob-home-section-1.webp" />
-										<img src="img/video-cover-pc-home-section-1.webp" class="video-cover" alt="Girl and boy playing">
-									</picture>
-								</a>
+								<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop aria-label="Background video of children playing">
+									<source src="img/1_pupil_toy.mp4" type="video/mp4">
+									<source src="img/1_pupil_toy.webm" type="video/webm">
+									<source src="img/1_pupil_toy.mov" type="video/mov">
+								</video>
 							</div>
 						</div>
 					</div>
@@ -308,18 +298,12 @@
 
 			<!-- SECTION started-video -->
 			<section class="started-video">
-				<!-- <video class="started-video__bg-video started-video__bg-video--pc" autoplay="" muted="" loop="">
-						<source src="img/2_children_draw.mp4" type="video/mp4">
-					</video> -->
 				<video class="started-video__bg-video started-video__bg-video--pc" autoplay muted loop aria-label="Background video of children drawing">
 					<source src="img/2_children_draw.mp4" type="video/mp4">
-					Your browser does not support the video. <a href="img/2_children_draw.mp4">Download video </a>.
+					<source src="img/2_children_draw.webm" type="video/webm">
+					<source src="img/2_children_draw.mov" type="video/mov">
 				</video>
-				<!-- <video class="started-video__bg-video started-video__bg-video--mobile" autoplay="" muted="" loop="" playsinline="">
-						<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mp4" type="video/mp4">
-						<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.webm" type="video/webm">
-						<source src="https://ldvill.com/wp-content/themes/ld-electrician/assets/video/video-bg-mobile.mov" type="video/mov">
-					</video> -->
+
 				<div class="video-bg"></div>
 				<div class="started-video__container">
 					<div class="started-video__title">
@@ -329,7 +313,7 @@
 						<div class="started-video__description">
 							Contact us to schedule a consultation and learn more about how we can support your loved one on their path to success.
 						</div>
-						<div class="get-started__item get-started__item--button">
+						<div class="get-started__item get-started__item--button no-border">
 							<img src="img/icon-diagonal-arrow.svg" alt="Contact button icon">
 							<button data-popup="#popup" class="button">
 								<div class="button-text-1">Get Started</div>
@@ -630,7 +614,7 @@
 								<label for="get-started-email">Your Email:</label>
 								<input type="text" id="get-started-email" name="get-started-email" placeholder="Ex. mail@gmail.com" class="input">
 							</div>
-							<div data-popup="#popup" class="get-started__item get-started__item--button">
+							<div data-popup="#popup" class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
 								<button class="button">
 									<div class="button-text-1">Get Started</div>
@@ -717,7 +701,7 @@
 								<label for="email">Your Email:</label>
 								<input type="text" id="email" name="email" placeholder="Ex. mail@gmail.com" class="input">
 							</div>
-							<div class="get-started__item get-started__item--button">
+							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
 								<button type="submit" class="button">
 									<div class="button-text-1">Get Started</div>
@@ -875,7 +859,7 @@
 								<label for="apply-form-cover-letter">Cover letter:</label>
 								<textarea name="apply-form-cover-letter" id="apply-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
 							</div>
-							<div class="get-started__item get-started__item--button">
+							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
 								<button type="submit" class="button">
 									<div class="button-text-1">Apply</div>
@@ -987,7 +971,7 @@
 								<label for="bcba-lba-apply-form-cover-letter">Cover letter:</label>
 								<textarea name="bcba-lba-apply-form-cover-letter" id="bcba-lba-apply-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
 							</div>
-							<div class="get-started__item get-started__item--button">
+							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
 								<button type="submit" class="button">
 									<div class="button-text-1">Apply</div>
@@ -1104,7 +1088,7 @@
 								<label for="opportunity-apply-form-cover-letter">Cover letter:</label>
 								<textarea name="opportunity-apply-form-cover-letter" id="opportunity-apply-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
 							</div>
-							<div class="get-started__item get-started__item--button">
+							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
 								<button type="submit" class="button">
 									<div class="button-text-1">Apply</div>
@@ -1117,7 +1101,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250210080438"></script>
+	<script src="js/app.min.js?_v=20250211092525"></script>
 </body>
 
 </html>
