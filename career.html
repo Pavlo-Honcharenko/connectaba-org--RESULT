@@ -6,11 +6,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250212181018">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250212202016">
 	<link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
 	<link rel="icon" href="img/favicon.webp" type="image/x-icon">
 	<meta name="robots" content="noindex, nofollow">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
 
 	<meta name="keywords" content="">
 	<meta name="description" content="">
@@ -387,10 +387,10 @@
 								<img src="img/icon-resume.svg" alt="Resume form icon">
 								<label for="apply-form-resume">Your Resume:</label>
 								<div class="input-file">
-									<div class="input-file__text">Attach file (PDF, doc, docx)</div>
-									<div class="input-file__button">
-										<input type="file" name="apply-form-resume" id="apply-form-resume" accept=".pdf, .doc, .docx">
-										<div class="input-file__button-text">Browse files</div>
+									<div class="input-wrapper">
+										<input type="file" name="apply-form-resume" id="apply-form-resume" accept=".pdf, .doc, .docx" style="display: none;">
+										<span id="file-name-1">Attach file (PDF, doc, docx)</span>
+										<label for="apply-form-resume" class="custom-button">Browse files</label>
 									</div>
 								</div>
 							</div>
@@ -488,33 +488,33 @@
 						<div class="get-started__items">
 							<div class="get-started__item get-started__item--name">
 								<img src="img/icon-user.svg" alt="Name form icon">
-								<label for="bcba-lba-apply-form-name">Your Name:</label>
-								<input type="text" id="bcba-lba-apply-form-name" name="bcba-lba-apply-form-name" placeholder="Ex. John Dow" class="input">
+								<label for="bcba-lba-form-name">Your Name:</label>
+								<input type="text" id="bcba-lba-form-name" name="bcba-lba-form-name" placeholder="Ex. John Dow" class="input">
 							</div>
 							<div class="get-started__item get-started__item--email">
 								<img src="img/icon-mail.svg" alt="Email form icon">
-								<label for="bcba-lba-apply-form-email">Your Email:</label>
-								<input type="text" id="bcba-lba-apply-form-email" name="bcba-lba-apply-form-email" placeholder="Ex. mail@gmail.com" class="input">
+								<label for="bcba-lba-form-email">Your Email:</label>
+								<input type="text" id="bcba-lba-form-email" name="bcba-lba-form-email" placeholder="Ex. mail@gmail.com" class="input">
 							</div>
 							<div class="get-started__item get-started__item--phone">
 								<img src="img/icon-phone.svg" alt="Phone form icon">
-								<label for="bcba-lba-apply-form-phone">Your Phone:</label>
-								<input type="text" id="bcba-lba-apply-form-phone" name="bcba-lba-apply-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
+								<label for="bcba-lba-form-phone">Your Phone:</label>
+								<input type="text" id="bcba-lba-form-phone" name="bcba-lba-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
 							</div>
 							<div class="get-started__item get-started__item--resume">
 								<img src="img/icon-resume.svg" alt="Resume form icon">
-								<label for="bcba-lba-apply-form-resume">Your Resume:</label>
+								<label for="bcba-lba-form-resume">Your Resume:</label>
 								<div class="input-file">
-									<div class="input-file__text">Attach file (PDF, doc, docx)</div>
-									<div class="input-file__button">
-										<input type="file" name="bcba-lba-apply-form-resume" id="bcba-lba-apply-form-resume" accept=".pdf, .doc, .docx">
-										<div class="input-file__button-text">Browse files</div>
+									<div class="input-wrapper">
+										<input type="file" name="bcba-lba-form-resume" id="bcba-lba-form-resume" accept=".pdf, .doc, .docx" style="display: none;">
+										<span id="file-name-2">Attach file (PDF, doc, docx)</span>
+										<label for="bcba-lba-form-resume" class="custom-button">Browse files</label>
 									</div>
 								</div>
 							</div>
 							<div class="get-started__item get-started__item--cover-letter">
-								<label for="bcba-lba-apply-form-cover-letter">Cover letter:</label>
-								<textarea name="bcba-lba-apply-form-cover-letter" id="bcba-lba-apply-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
+								<label for="bcba-lba-form-cover-letter">Cover letter:</label>
+								<textarea name="bcba-lba-form-cover-letter" id="bcba-lba-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
 							</div>
 							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
@@ -611,33 +611,33 @@
 						<div class="get-started__items">
 							<div class="get-started__item get-started__item--name">
 								<img src="img/icon-user.svg" alt="Name form icon">
-								<label for="opportunity-apply-form-name">Your Name:</label>
-								<input type="text" id="opportunity-apply-form-name" name="opportunity-apply-form-name" placeholder="Ex. John Dow" class="input">
+								<label for="opportunity-form-name">Your Name:</label>
+								<input type="text" id="opportunity-form-name" name="opportunity-form-name" placeholder="Ex. John Dow" class="input">
 							</div>
 							<div class="get-started__item get-started__item--email">
 								<img src="img/icon-mail.svg" alt="Email form icon">
-								<label for="opportunity-apply-form-email">Your Email:</label>
-								<input type="text" id="opportunity-apply-form-email" name="opportunity-apply-form-email" placeholder="Ex. mail@gmail.com" class="input">
+								<label for="opportunity-form-email">Your Email:</label>
+								<input type="text" id="opportunity-form-email" name="opportunity-form-email" placeholder="Ex. mail@gmail.com" class="input">
 							</div>
 							<div class="get-started__item get-started__item--phone">
 								<img src="img/icon-phone.svg" alt="Phone form icon">
-								<label for="opportunity-apply-form-phone">Your Phone:</label>
-								<input type="text" id="opportunity-apply-form-phone" name="opportunity-apply-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
+								<label for="opportunity-form-phone">Your Phone:</label>
+								<input type="text" id="opportunity-form-phone" name="opportunity-form-phone" placeholder="Ex. +7 357 986 45 21" class="input">
 							</div>
 							<div class="get-started__item get-started__item--resume">
 								<img src="img/icon-resume.svg" alt="Resume form icon">
-								<label for="opportunity-apply-form-resume">Your Resume:</label>
+								<label for="opportunity-form-resume">Your Resume:</label>
 								<div class="input-file">
-									<div class="input-file__text">Attach file (PDF, doc, docx)</div>
-									<div class="input-file__button">
-										<input type="file" name="opportunity-apply-form-resume" id="opportunity-apply-form-resume" accept=".pdf, .doc, .docx">
-										<div class="input-file__button-text">Browse files</div>
+									<div class="input-wrapper">
+										<input type="file" name="opportunity-form-resume" id="opportunity-form-resume" accept=".pdf, .doc, .docx" style="display: none;">
+										<span id="file-name-3">Attach file (PDF, doc, docx)</span>
+										<label for="opportunity-form-resume" class="custom-button">Browse files</label>
 									</div>
 								</div>
 							</div>
 							<div class="get-started__item get-started__item--cover-letter">
-								<label for="opportunity-apply-form-cover-letter">Cover letter:</label>
-								<textarea name="opportunity-apply-form-cover-letter" id="opportunity-apply-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
+								<label for="opportunity-form-cover-letter">Cover letter:</label>
+								<textarea name="opportunity-form-cover-letter" id="opportunity-form-cover-letter" cols="30" rows="5" placeholder="Describe your problem as detailed as possible"></textarea>
 							</div>
 							<div class="get-started__item get-started__item--button no-border">
 								<img src="img/icon-diagonal-arrow.svg" alt="Submit button form icon">
@@ -652,7 +652,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250212181018"></script>
+	<script src="js/app.min.js?_v=20250212202016"></script>
 </body>
 
 </html>

@@ -4324,6 +4324,21 @@
             }));
         }
     }), 0);
+    const fileInput1 = document.getElementById("apply-form-resume");
+    const fileNameSpan1 = document.getElementById("file-name-1");
+    fileInput1.addEventListener("change", (() => {
+        if (fileInput1.files.length > 0) fileNameSpan1.textContent = fileInput1.files[0].name; else fileNameSpan1.textContent = "";
+    }));
+    const fileInput2 = document.getElementById("bcba-lba-form-resume");
+    const fileNameSpan2 = document.getElementById("file-name-2");
+    fileInput2.addEventListener("change", (() => {
+        if (fileInput2.files.length > 0) fileNameSpan2.textContent = fileInput2.files[0].name; else fileNameSpan2.textContent = "";
+    }));
+    const fileInput3 = document.getElementById("opportunity-form-resume");
+    const fileNameSpan3 = document.getElementById("file-name-3");
+    fileInput3.addEventListener("change", (() => {
+        if (fileInput3.files.length > 0) fileNameSpan3.textContent = fileInput3.files[0].name; else fileNameSpan3.textContent = "";
+    }));
     window["FLS"] = false;
     menuInit();
     spollers();
