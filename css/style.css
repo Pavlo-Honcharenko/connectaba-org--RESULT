@@ -2730,7 +2730,8 @@ textarea:focus {
   margin-top: -25px;
   margin-bottom: -25px;
   z-index: 7;
-  padding-bottom: 380px
+  padding-bottom: 380px;
+  overflow: hidden
 }
 @media(min-width:86.375em) {
   .how {
@@ -2754,7 +2755,6 @@ textarea:focus {
 }
 @media(min-width:64.06125em) {
   .how {
-    min-height: 125vh;
     padding-bottom: 0
   }
 }
@@ -2773,30 +2773,40 @@ textarea:focus {
 .how__bg {
   position: absolute;
   bottom: 0;
-  right: 28%;
-  height: 90%;
-  width: auto;
+  top: initial;
+  right: calc(50% - 150px);
+  height: auto;
+  width: 300px;
   -o-object-fit: contain;
   object-fit: contain;
   z-index: -1
 }
-@media(min-width:100em) {
+@media(min-width:750px) {
   .how__bg {
-    right: 30%
+    width: 500px;
+    height: auto;
+    right: calc(50% - 250px)
   }
 }
-@media(max-width:64.06125em) {
+@media(min-width:1024px) {
   .how__bg {
-    right: calc(50% - 231px);
-    height: 450px;
-    width: auto
+    left: 0;
+    right: initial
   }
 }
-@media(max-width:47.99875em) {
+@media(min-width:1200px) {
   .how__bg {
-    right: calc(50% - 183px);
-    height: 355px;
-    max-width: 100%
+    left: initial;
+    right: calc(50% - 22vw);
+    bottom: initial;
+    top: 240px;
+    height: initial;
+    width: 60vw
+  }
+}
+@media(min-width:1300px) {
+  .how__bg {
+    top: 100px
   }
 }
 .how__row {
