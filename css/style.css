@@ -947,7 +947,9 @@ textarea:focus {
   gap: 10px;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  position: relative;
+  z-index: 2
 }
 @media(min-width:47.99875em) {
   .breadcrumps {
