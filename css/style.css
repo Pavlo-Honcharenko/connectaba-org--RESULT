@@ -2808,7 +2808,9 @@ textarea:focus {
 }
 @media(min-width:1300px) {
   .how__bg {
-    top: 100px
+    top: 100px;
+	width: 63vw;
+	right: calc(50% - 20vw);
   }
 }
 .how__row {
