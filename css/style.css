@@ -2799,18 +2799,18 @@ textarea:focus {
 @media(min-width:1200px) {
   .how__bg {
     left: initial;
-    right: calc(50% - 22vw);
+    right: calc(50% - 23vw);
     bottom: initial;
     top: 240px;
     height: initial;
-    width: 60vw
+    width: 62vw
   }
 }
 @media(min-width:1300px) {
   .how__bg {
     top: 100px;
 	width: 63vw;
-	right: calc(50% - 20vw);
+	right: calc(50% - 25vw);
   }
 }
 .how__row {
