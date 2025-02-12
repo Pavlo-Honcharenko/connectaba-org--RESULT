@@ -2858,13 +2858,20 @@ textarea:focus {
   }
 }
 .spollers {
-  position: relative
+  position: relative;
+  margin-bottom: 20px
+}
+@media(min-width:47.99875em) {
+  .spollers {
+    margin-bottom: 50px
+  }
 }
 @media(min-width:64.06125em) {
   .spollers {
     border: 1px solid #eaebf1;
     border-radius: 40px;
-    padding: 30px
+    padding: 30px;
+    margin-bottom: 100px
   }
 }
 .spollers::before {
@@ -2887,12 +2894,17 @@ textarea:focus {
 }
 .spollers__title {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 120%;
   color: #333f56;
   display: flex;
   align-items: center;
-  padding-right: 44px
+  padding-right: 47px
+}
+@media(min-width:29.99875em) {
+  .spollers__title {
+    font-size: 24px
+  }
 }
 @media(min-width:47.99875em) {
   .spollers__title {
