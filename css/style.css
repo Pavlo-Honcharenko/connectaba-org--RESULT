@@ -379,7 +379,9 @@ body::after {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
-  padding-top: 30px
+  padding-top: 30px;
+  position: relative;
+  z-index: 2
 }
 @media(min-width:29.99875em) {
   .popup .popup-title {
@@ -552,7 +554,7 @@ body::after {
   top: -59px;
   left: -30px;
   width: calc(100% + 60px);
-  height: 60px;
+  height: 94px;
   background: #394b74;
   z-index: 2
 }
@@ -578,7 +580,9 @@ body::after {
   font-weight: 400;
   letter-spacing: -.02em;
   color: #fff;
-  margin: 0
+  margin: 0;
+  position: relative;
+  z-index: 2
 }
 @media(min-width:86.375em) {
   .popup-opportunities .popup-title {
@@ -597,7 +601,9 @@ body::after {
 }
 .popup-opportunities .popup-description {
   text-align: left;
-  margin: 0
+  margin: 0;
+  position: relative;
+  z-index: 2
 }
 @media(min-width:86.375em) {
   .popup-opportunities .popup-description {
@@ -2799,18 +2805,16 @@ textarea:focus {
 @media(min-width:1200px) {
   .how__bg {
     left: initial;
-    right: calc(50% - 23vw);
+    right: calc(50% - 22vw);
     bottom: initial;
     top: 240px;
     height: initial;
-    width: 62vw
+    width: 60vw
   }
 }
 @media(min-width:1300px) {
   .how__bg {
-    top: 100px;
-	width: 63vw;
-	right: calc(50% - 25vw);
+    top: 100px
   }
 }
 .how__row {
